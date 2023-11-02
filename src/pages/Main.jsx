@@ -20,6 +20,7 @@ function Main() {
       {isPending && <h1>Loading...</h1>}
       {error && <h1>{error}</h1>}
     </div>
+    
   );
 }
 
